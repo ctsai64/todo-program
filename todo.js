@@ -1,3 +1,5 @@
+const API_URL = 'https://todo-program.onrender.com';
+
 function updateClock() {
     const now = new Date();
     const hours = String(now.getHours()).padStart(2, '0');
